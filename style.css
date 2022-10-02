@@ -132,6 +132,9 @@
     pointer-events: none;
   }
   
+  .mobile{
+    display: none;
+  }
   div.fadeIn {
     opacity: 1;
     pointer-events: all;
@@ -196,3 +199,22 @@
     }
   }
   
+
+  @media screen and (max-width: 1023px){
+.game{
+  display: none;
+}
+
+.mobile{
+  display: block;
+  font-size: large;
+  color: aqua;
+  margin: auto;
+  min-height: 100vh;
+  background-color: #011627;
+  padding-top: 80%;
+  padding-left: 10%;
+}
+  }
+    
+ 
